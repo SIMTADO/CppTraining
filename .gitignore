@@ -1,0 +1,86 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+
+# Compilation database
+compile_commands.json
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Object files and dependencies
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.d
+*.dSYM/
+
+# Preprocessed files
+*.ii
+*.is
+*.su
+*.gch
+*.pch
+
+# Executables
+CppTraining
+test
+
+# Ccache
+.ccache/
+.ccache/*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Testing
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# OS specific
+Thumbs.db
+.Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Misc
+.env
+.env.local
+.clangd
+*.log
